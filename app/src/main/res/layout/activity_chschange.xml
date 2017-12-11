@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/fragment_title" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="0dp"
+                android:layout_height="57dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/phone_btn_bg"
+                android:gravity="center"
+                android:text="频道1"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="0dp"
+                android:layout_height="57dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/phone_btn_bg"
+                android:gravity="center"
+                android:text="频道2"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="0dp"
+                android:layout_height="57dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/phone_btn_bg"
+                android:gravity="center"
+                android:text="频道3"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="57dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/phone_btn_bg"
+                android:gravity="center"
+                android:text="频道4"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="0dp"
+                android:layout_height="57dp"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/phone_btn_bg"
+                android:gravity="center"
+                android:text="频道5"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="0dp"
+                android:layout_height="57dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/phone_btn_bg"
+                android:gravity="center"
+                android:text="频道6"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </TableRow>
+    </TableLayout>
+    <ListView
+        android:id="@+id/cluster_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="1dp"
+        android:overScrollMode="never" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">集群 </string>
+    <string name="username">账号/username</string>
+    <string name="password">密码/password</string>
+    <string name="login">登录/login</string>
+
+</resources>

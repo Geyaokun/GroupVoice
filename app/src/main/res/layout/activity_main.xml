@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="75dp"
+        android:textSize="45sp"
+        android:textColor="#3094cf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="集群通"
+        android:typeface="serif"/>
+
+    <EditText
+        android:id="@+id/username_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/login_button_bg"
+        android:gravity="center"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColorHint="#fff"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/login_button_bg"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+</LinearLayout>
